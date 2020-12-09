@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <FrameLayout
+        android:id="@+id/frameLayout"
+        android:layout_width="409dp"
+        android:layout_height="157dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <Button
+            android:id="@+id/button33"
+            android:layout_width="100dp"
+            android:layout_height="55dp"
+            android:text="-"
+            app:backgroundTint="@color/teal_200" />
+
+        <Button
+            android:id="@+id/button22"
+            android:layout_width="100dp"
+            android:layout_height="55dp"
+            android:layout_gravity="right"
+            android:text="+"
+            app:backgroundTint="@color/teal_200" />
+    </FrameLayout>
+
+    <FrameLayout
+        android:id="@+id/frameLayout2"
+        android:layout_width="415dp"
+        android:layout_height="208dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent">
+
+        <Button
+            android:id="@+id/button55"
+            android:layout_width="100dp"
+            android:layout_height="55dp"
+            android:layout_gravity="bottom|left"
+            android:text="/"
+            app:backgroundTint="@color/teal_200" />
+
+        <Button
+            android:id="@+id/button44"
+            android:layout_width="100dp"
+            android:layout_height="55dp"
+            android:layout_gravity="bottom|right"
+            android:text="*"
+            app:backgroundTint="@color/teal_200" />
+    </FrameLayout>
+
+    <LinearLayout
+        android:layout_width="410dp"
+        android:layout_height="165dp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="@+id/frameLayout2"
+        app:layout_constraintTop_toTopOf="@+id/frameLayout"
+        app:layout_constraintVertical_bias="0.432"
+        tools:layout_editor_absoluteX="1dp">
+
+        <EditText
+            android:id="@+id/string_11"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:ems="10"
+            android:inputType="textPersonName" />
+
+        <EditText
+            android:id="@+id/string_22"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:ems="10"
+            android:inputType="textPersonName" />
+
+        <TextView
+            android:id="@+id/string_33"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center" />
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

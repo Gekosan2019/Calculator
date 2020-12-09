@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Android разработка</string>
+    <string name="string_11"></string>
+    <string name="string_22"></string>
+    <string name="string_33"></string>
+    <string name="textView5">+</string>
+    <string name="textView6">-</string>
+    <string name="textView7">*</string>
+    <string name="textView8">/</string>
+</resources>
